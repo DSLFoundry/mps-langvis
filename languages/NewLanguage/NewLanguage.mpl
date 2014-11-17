@@ -25,13 +25,7 @@
       <mapping-priorities />
     </generator>
   </generators>
-  <stubModelEntries>
-    <stubModelEntry path="/home/klemens/plantuml.jar" />
-  </stubModelEntries>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">c0488c1e-322f-4f38-92d4-5520a7ce96c1(com.mbeddr.mpsutil.plantuml.pluginSolution)</dependency>
-  </dependencies>
   <usedLanguages>
     <usedLanguage>443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)</usedLanguage>
     <usedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</usedLanguage>
