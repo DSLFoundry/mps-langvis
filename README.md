@@ -11,12 +11,13 @@ Tested with Linux only, for now.
 Prerequisites:
  * Download PlantUML from http://plantuml.sourceforge.net/download.html
  * Install the image viewer of your choice (e.g. eog or another viewer which automatically refreshes the view on file change)
+ * Clone this git repository
 
 Build the plugin:
  * Open the mps-langstructvis solution in MPS.
  * Adjust the mps_home path in the build solution
- * Rebuild all solutions
- * Run "ant" in the project folder
+ * Rebuild all solutions (there should be a build.xml now in the top-level folder of the cloned repository)
+ * Run "ant" in the top-level folder the cloned repository
 
 Install the plugin:
  * Select "File" -> "Settings" -> "Plugins" -> "Install from disk".
