@@ -1399,7 +1399,7 @@
       <node concept="3clFbS" id="7xKSQ_fhnmZ" role="3clF47">
         <node concept="3SKdUt" id="7xKSQ_fhEeJ" role="3cqZAp">
           <node concept="3SKdUq" id="7xKSQ_fhEfl" role="3SKWNk">
-            <property role="3SKdUp" value="Children, references, &quot;child concepts&quot;" />
+            <property role="3SKdUp" value="Collect children and references" />
           </node>
           <node concept="3SKdUq" id="7xKSQ_gDrZp" role="3SKWNk">
             <property role="3SKdUp" value="   " />
@@ -1498,7 +1498,7 @@
       <node concept="3clFbS" id="7xKSQ_fnS9v" role="3clF47">
         <node concept="3SKdUt" id="7xKSQ_fnS9w" role="3cqZAp">
           <node concept="3SKdUq" id="7xKSQ_fnS9x" role="3SKWNk">
-            <property role="3SKdUp" value="Children, references, &quot;child concepts&quot;" />
+            <property role="3SKdUp" value="collect mplemented interfaces and extended concepts" />
           </node>
         </node>
         <node concept="3clFbJ" id="7xKSQ_gEsS0" role="3cqZAp">
