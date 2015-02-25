@@ -1434,7 +1434,7 @@
           </node>
         </node>
         <node concept="Jncv_" id="7xKSQ_flKou" role="3cqZAp">
-          <ref role="JncvD" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+          <ref role="JncvD" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
           <node concept="37vLTw" id="7xKSQ_flTHD" role="JncvB">
             <ref role="3cqZAo" node="7xKSQ_fhE2L" resolve="node" />
           </node>
