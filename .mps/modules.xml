@@ -2,9 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/NewLanguage/NewLanguage.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/GenerateMetaModelDocumentation.build/GenerateMetaModelDocumentation.build.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/MetaModelDocGen/MetaModelDocGen.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/ConceptStructureVisualization/ConceptStructureVisualization.msd" folder="" />
     </projectModules>
   </component>
 </project>
+
