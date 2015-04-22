@@ -9,6 +9,7 @@ Tested with Linux and Windows only, for now.
 
 # Installation
 Prerequisites:
+
 1. Download PlantUML from http://plantuml.sourceforge.net/download.html
 2. Download GraphViz (as a dependency to PlantUML) from http://www.graphviz.org/
 3. Download and install ant (e.g. using choco install, after having installed the Chocolatey package manager - https://chocolatey.org/ or unzipping manually and adding path variables)
@@ -24,12 +25,14 @@ Prerequisites:
  * For Windows, you would typically use the following command: ant -Dmps_home="C:\Program Files (x86)\JetBrains\MPS 3.2"
 
 Install the plugin:
+
 1. Select "File" -> "Settings" -> "Plugins" -> "Install plugin from disk".
 2. From the "build/artifacts/GenerateMetaModelDocumentation" subdirectory of the project select the zip file.
 3. Press "OK" and "Restart"
 
 # Usage
 You can create the following types of visualizations:
+
 * Full structure of a language (right click "structure" of the language and select "Generate MetaModel PlantUML") - hotkey: Ctrl+Shift+M
 * Inheritance hierarchy to see which interfaces are implemented (Right click concept and select "Generate inheritance ...")
 * Concept structure showing the children of a concept (Right click concept and select "Generate concept ...")
