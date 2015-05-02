@@ -8,23 +8,27 @@ The visualization does not yet show in an integrated window, but can be quite us
 Tested with Linux and Windows only, for now.
 
 # Installation
+The following installation instructions assume an ```apt-get``` package manager on Linux and the Chocolatey package manager (https://chocolatey.org/) on Windows.
+
 Prerequisites:
 
-1. Download PlantUML from http://plantuml.sourceforge.net/download.html
-2. Download GraphViz (as a dependency to PlantUML) from http://www.graphviz.org/
-3. Download and install ant (e.g. using choco install, after having installed the Chocolatey package manager - https://chocolatey.org/ or unzipping manually and adding path variables)
-4. Install the image viewer of your choice (e.g. eog for Linux, IrfanView for Windows, or another viewer - preferably one which automatically refreshes the view on file change)
-5. For Windows: make sure you have javac in your path
-6. Clone this git repository
+1. Install the latest Oracle JDK (www.oracle.com/technetwork/java/javase)
+2. Download PlantUML jar file from http://plantuml.sourceforge.net/download.html and store it into your home directory
+3. Install GraphViz (http://www.graphviz.org/) to satisfy PlantUML dependency (e.g. ```sudo apt-get install graphviz``` or ```choco install graphviz```)
+4. Download and install ant (e.g. using ```sudo apt-get install ant``` or ```choco install apache.ant```)
+5. Install the auto-refreshing image viewer of your choice (e.g. ```sudo apt-get install eog``` or ```choco install irfanview```)
+6. For Windows: make sure your ```JAVA_HOME``` environment variable points to your JDK (e.g. ```set JAVA_HOME="c:\Program Files\Java\jdk1.8.0_45"```) 
+7. Clone this git repository
 
-## Build the plugin:
-1. Open the mps-langstructvis solution in MPS.
-2. Adjust the mps_home path in the build solution
-3. Rebuild all solutions (there should be a build.xml now in the top-level folder of the cloned repository)
-4. Run "ant" in the top-level folder the cloned repository
- * For Windows, you would typically use the following command: ant -Dmps_home="C:\Program Files (x86)\JetBrains\MPS 3.2"
+## Build the plugin
+1. (Optional) regenerate the build.xml file
+ * Open the mps-langstructvis solution in MPS.
+ * Adjust the mps_home path in the build solution
+ * Rebuild all solutions (there should be a build.xml now in the top-level folder of the cloned repository)
+2. Run ```ant``` in the top-level folder the cloned repository
+ * For Windows, you would typically use the following command: ant -Dmps_home="C:\Program Files (x86)\JetBrains\MPS 3.1"
 
-Install the plugin:
+In MPS, install the plugin:
 
 1. Select "File" -> "Settings" -> "Plugins" -> "Install plugin from disk".
 2. From the "build/artifacts/GenerateMetaModelDocumentation" subdirectory of the project select the zip file.
