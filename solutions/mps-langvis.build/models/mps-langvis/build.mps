@@ -34,7 +34,7 @@
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="3551627654663024109" nodeInfo="ng">
-      <property name="id" nameId="kdzh.6592112598314498927" value="mps-langvis" />
+      <property name="id" nameId="kdzh.6592112598314498927" value="mps_langvis" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3551627654663024110" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3551627654663024111" nodeInfo="ng">
           <property name="text" nameId="3ior.4903714810883755350" value="mps-langvis" />

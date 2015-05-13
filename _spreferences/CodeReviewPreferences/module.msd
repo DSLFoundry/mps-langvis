@@ -2,7 +2,7 @@
 <solution name="mps-langvis.__spreferences.CodeReviewPreferences" uuid="~_PreferencesModule#mps-langvis.__spreferences.CodeReviewPreferences" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="models" />
+      <sourceRoot path="${module}/models" />
     </modelRoot>
   </models>
   <sourcePath />
