@@ -6,5 +6,11 @@
     </dependencies>
     <rename id="kdb5.8154975756302209857" type="REFERENCE" from="concept" to="conceptNode" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="kdb5" modelUID="r:9b70e10f-307a-4587-a13b-979e7000f777(com.dslfoundry.mps.langvis.structure)" version="0" />
+    </dependencies>
+    <rename id="kdb5.372394949009613903" type="PROPERTY" from="traits" to="showTraits" />
+  </StructureModification>
 </history>
 
