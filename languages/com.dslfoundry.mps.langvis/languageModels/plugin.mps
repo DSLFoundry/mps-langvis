@@ -180,39 +180,6 @@
           <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403025056845" nodeInfo="nn">
             <property name="value" nameId="tpee.1070475926801" value="IResolveInfo" />
           </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403024165990" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="IAntisuppressErrors" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403024694819" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="ICanSuppressErrors" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403021986239" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="IType" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403022044793" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="IDontSubstituteByDefault" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403024907169" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="IContainer" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403022196829" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="IDeprecatable" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403022285519" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="IWrapper" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403025216556" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="ImplementationContainer" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403025458736" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="InterfacePart" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403022333254" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="ScopeProvider" />
-          </node>
-          <node role="initValue" roleId="tp2q.1237721435808" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730551403025612099" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="IStructureDeprecatable" />
-          </node>
         </node>
       </node>
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="8154975756302027338" nodeInfo="ng">
