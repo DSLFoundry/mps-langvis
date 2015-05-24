@@ -49,6 +49,10 @@
       <property name="name" nameId="tpck.1169194664001" value="showParents" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
     </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8698000459462892544" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="maxDepth" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
   </root>
 </model>
 
