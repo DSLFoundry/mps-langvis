@@ -5,7 +5,7 @@ A JetBrains MPS plugin to visualize the structure of a language.
 
 The visualization does not yet show in an integrated window, but can be quite usable when using an image viewer which refreshes on file change.
 
-Tested with Linux and Windows only, for now.
+Tested with Linux, Windows and Mac.
 
 # Installation
 The following installation instructions assume an ```apt-get``` package manager on Linux and the Chocolatey package manager (https://chocolatey.org/) on Windows.
@@ -27,6 +27,7 @@ Prerequisites:
  * Rebuild all solutions (there should be a build.xml now in the top-level folder of the cloned repository)
 2. Run ```ant``` in the top-level folder the cloned repository
  * For Windows, you would typically use the following command: ant -Dmps_home="C:\Program Files (x86)\JetBrains\MPS 3.1"
+ * For Mac, you would typically use the following command: ant -Dmps_home="/Applications/MPS 3.3.app/Contents"
 
 In MPS, install the plugin:
 
