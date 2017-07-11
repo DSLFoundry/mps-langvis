@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
+    <import index="lr45" ref="r:d92c6c4c-23fa-4276-9826-db386386bf87(com.dslfoundry.langvis.plugin)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -122,12 +123,12 @@
           </node>
         </node>
         <node concept="m$_wl" id="359UCzqDaRU" role="39821P">
-          <ref role="m_rDy" node="359UCzqDaRH" resolve="mps-langvis" />
+          <ref role="m_rDy" node="359UCzqDaRH" resolve="com.dslfoundry.langvis" />
         </node>
       </node>
     </node>
     <node concept="m$_wf" id="359UCzqDaRH" role="3989C9">
-      <property role="m$_wk" value="mps-langvis" />
+      <property role="m$_wk" value="com.dslfoundry.langvis" />
       <node concept="3_J27D" id="359UCzqDaRI" role="m$_yQ">
         <node concept="3Mxwew" id="359UCzqDaRJ" role="3MwsjC">
           <property role="3MwjfP" value="mps-langvis" />
@@ -154,7 +155,7 @@
       <property role="TrG5h" value="mps-langvis" />
       <node concept="1E1JtA" id="359UCzqDaRF" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="ConceptStructureVisualization" />
+        <property role="TrG5h" value="com.dslfoundry.langvis" />
         <property role="3LESm3" value="2af4e160-40bc-45d5-9078-9e2dabc7e7c0" />
         <property role="2GAjPV" value="false" />
         <node concept="55IIr" id="359UCzqDaRA" role="3LF7KH">
@@ -162,8 +163,8 @@
             <property role="2Ry0Am" value="solutions" />
             <node concept="2Ry0Ak" id="359UCzqDaRC" role="2Ry0An">
               <property role="2Ry0Am" value="ConceptStructureVisualization" />
-              <node concept="2Ry0Ak" id="359UCzqDaRD" role="2Ry0An">
-                <property role="2Ry0Am" value="ConceptStructureVisualization.msd" />
+              <node concept="2Ry0Ak" id="2UnOa23SZZQ" role="2Ry0An">
+                <property role="2Ry0Am" value="com.dslfoundry.langvis.msd" />
               </node>
             </node>
           </node>

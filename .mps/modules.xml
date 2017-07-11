@@ -2,8 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/solutions/ConceptStructureVisualization/ConceptStructureVisualization.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/mps-langvis.build/mps-langvis.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/ConceptStructureVisualization/com.dslfoundry.langvis.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mps-langvis.build/com.dslfoundry.langvis.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
