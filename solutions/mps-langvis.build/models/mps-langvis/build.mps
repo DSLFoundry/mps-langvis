@@ -91,6 +91,7 @@
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
+        <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -166,7 +167,7 @@
       </node>
       <node concept="3_J27D" id="359UCzqDaRI" role="m$_yQ">
         <node concept="3Mxwew" id="359UCzqDaRJ" role="3MwsjC">
-          <property role="3MwjfP" value="mps-langvis" />
+          <property role="3MwjfP" value="com.dslfoundry.langvis" />
         </node>
       </node>
       <node concept="3_J27D" id="359UCzqDaRK" role="m$_w8">
@@ -182,12 +183,17 @@
       </node>
       <node concept="3_J27D" id="359UCzqDaRO" role="m_cZH">
         <node concept="3Mxwew" id="359UCzqDaRP" role="3MwsjC">
-          <property role="3MwjfP" value="mps-langvis" />
+          <property role="3MwjfP" value="com.dslfoundry.langvis" />
         </node>
       </node>
       <node concept="2iUeEo" id="1hp6nRVuW6K" role="2iVFfd">
         <property role="2iUeEt" value="DSLFoundry" />
         <property role="2iUeEu" value="http://dslfoundry.com/" />
+      </node>
+      <node concept="3_J27D" id="1hp6nRVuXWH" role="3s6cr7">
+        <node concept="3Mxwew" id="1hp6nRVuXWK" role="3MwsjC">
+          <property role="3MwjfP" value="A JetBrains MPS plugin to visualize the structure of a language" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="359UCzqDaRG" role="3989C9">
