@@ -17,4 +17,3 @@ junit*.properties
 
 *.class
 /build
-/build.xml
