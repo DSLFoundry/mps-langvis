@@ -4,12 +4,26 @@
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="3" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="lr45" ref="r:d92c6c4c-23fa-4276-9826-db386386bf87(com.dslfoundry.langvis.plugin)" />
   </imports>
   <registry>
+    <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
+      <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
+        <property id="6666499814681541920" name="text" index="2pMdty" />
+      </concept>
+      <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
+        <property id="6666499814681415862" name="tagName" index="2pNNFO" />
+        <child id="6666499814681415861" name="attributes" index="2pNNFR" />
+      </concept>
+      <concept id="6666499814681447923" name="jetbrains.mps.core.xml.structure.XmlAttribute" flags="ng" index="2pNUuL">
+        <property id="6666499814681447926" name="attrName" index="2pNUuO" />
+        <child id="6666499814681541918" name="value" index="2pMdts" />
+      </concept>
+    </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
       <concept id="5481553824944787378" name="jetbrains.mps.build.structure.BuildSourceProjectRelativePath" flags="ng" index="55IIr" />
       <concept id="7321017245476976379" name="jetbrains.mps.build.structure.BuildRelativePath" flags="ng" index="iG8Mu">
@@ -61,11 +75,17 @@
       </concept>
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
+      <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
+        <property id="7832771629084799702" name="name" index="2iUeEt" />
+        <property id="7832771629084799701" name="url" index="2iUeEu" />
+      </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
+        <child id="1359186315025500371" name="xml" index="20twgj" />
+        <child id="7832771629084912518" name="vendor" index="2iVFfd" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
         <child id="6592112598314499050" name="content" index="m$_yh" />
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
@@ -129,6 +149,21 @@
     </node>
     <node concept="m$_wf" id="359UCzqDaRH" role="3989C9">
       <property role="m$_wk" value="com.dslfoundry.langvis" />
+      <node concept="2pNNFK" id="2aMbqeN3MWF" role="20twgj">
+        <property role="2pNNFO" value="idea-version" />
+        <node concept="2pNUuL" id="2aMbqeN3MX5" role="2pNNFR">
+          <property role="2pNUuO" value="until-build" />
+          <node concept="2pMdtt" id="2aMbqeN3MXg" role="2pMdts">
+            <property role="2pMdty" value="174.1" />
+          </node>
+        </node>
+        <node concept="2pNUuL" id="2aMbqeN3MXk" role="2pNNFR">
+          <property role="2pNUuO" value="since-build" />
+          <node concept="2pMdtt" id="2aMbqeN3MXx" role="2pMdts">
+            <property role="2pMdty" value="173.1" />
+          </node>
+        </node>
+      </node>
       <node concept="3_J27D" id="359UCzqDaRI" role="m$_yQ">
         <node concept="3Mxwew" id="359UCzqDaRJ" role="3MwsjC">
           <property role="3MwjfP" value="mps-langvis" />
@@ -136,7 +171,7 @@
       </node>
       <node concept="3_J27D" id="359UCzqDaRK" role="m$_w8">
         <node concept="3Mxwew" id="359UCzqDaRL" role="3MwsjC">
-          <property role="3MwjfP" value="1.0" />
+          <property role="3MwjfP" value="2017.3" />
         </node>
       </node>
       <node concept="m$f5U" id="359UCzqDaRM" role="m$_yh">
@@ -149,6 +184,10 @@
         <node concept="3Mxwew" id="359UCzqDaRP" role="3MwsjC">
           <property role="3MwjfP" value="mps-langvis" />
         </node>
+      </node>
+      <node concept="2iUeEo" id="1hp6nRVuW6K" role="2iVFfd">
+        <property role="2iUeEt" value="DSLFoundry" />
+        <property role="2iUeEu" value="http://dslfoundry.com/" />
       </node>
     </node>
     <node concept="2G$12M" id="359UCzqDaRG" role="3989C9">
