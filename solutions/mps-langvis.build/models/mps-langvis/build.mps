@@ -119,7 +119,7 @@
       <node concept="3981dG" id="359UCzqDaRR" role="39821P">
         <node concept="3_J27D" id="359UCzqDaRS" role="Nbhlr">
           <node concept="3Mxwew" id="359UCzqDaRT" role="3MwsjC">
-            <property role="3MwjfP" value="mps-langvis.zip" />
+            <property role="3MwjfP" value="com.dslfoundry.langvis.zip" />
           </node>
         </node>
         <node concept="m$_wl" id="359UCzqDaRU" role="39821P">
