@@ -4,13 +4,12 @@ jdk:
 before_install: wget https://download-cf.jetbrains.com/mps/2017.3/MPS-2017.3.zip
 install: unzip MPS-2017.3.zip
 script: ant -Dmps_home=./MPS\ 2017.3 clean generate assemble
-before_deploy: mv build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis.zip build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-2017.3.zip
+before_deploy: mv build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis.zip
+  build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-2017.3.zip
 deploy:
   provider: releases
   api_key:
-    secure: rKm0sEmLJNgG7gRmCiLIH4poLt8ozTuwL5j+a6ZTPWprONDqwlEMD8iWa+6XBmIzWd5196uq+qi1RqvI8OGkux4oyOMrcZw5HQvbMOulCMmr7rybMeQ0CuHxj90gaPxrmeudh/cgA2tBTxmnQOPuE1SaBO3q3odDWg7Xt0Y+9OKakez0pZg70W89pXyHc111ufoCYpC0Q3mibVbICy+mO2r8EASFUaOmk/JaitCQI/EW/oSV5k7A/ZhTMtu7jaqdmeo+fbsOBmIN2riL1Ijn65QdZVuJxIHPLAXwf7WR5a98g6IWAZtuP8u4OTNWts6Zi0UMkYJ+n9k777Vbw+yW1GQJRor4DuExwW4az8Fh+nSv/bHCdHVFKIM3T98gtDlhHrG8Vnj4wLsg8KS5Y0YglzFJrHmVEDdARKDGvaU54QUNplWNMqvrabGFVAK+7Mp6yb09LwyDa9sto6PrP3gN75i6CjJ6rW6NHDjJ6+ISNMKcfjtBQYOawoBpY2x5h19aIqg1MrfUUdEC01k9+aYDqmYIAZmGLpt+/7t7lxNcYuD6PPxpB3geLAemi4xw8nEcWfDzJGRUduH58GT1vwsCK2bM3vBBKF+iWOhAT/LlYAf2APwuEu9HhHeBCRWFRLFJ4iyDes0npnb4SSV44gFpItRks96rFXadTfjLCJedAII=
+    secure: dRoz3A2mGDT/8iKJUC2VwlZwAK8OzMI70L0iH+xG5GX/vOq+205Tk7zZLwzvAq7mij2KyL+IKQcsNpLJEPeWqwYgfcnfjG2CP9QL/Sq3UWvtYYaTcFqnHgvpy1hmPeKkqAmPjlQz+Hg7/zNqgAzva3+4jLhzMtk+S1GbRrI9EIPZ/cd/sdeK+wWkQwOTPEtkwM7hObksvXuK7ecn1wMMMovNzKmzQPe4NQn97lmkPqtxw7Os6H2XOZkROpn7YmePFFIT3vaOW6ril1+qn2wB/oduOpRMSll47N2pg98V7Zrvs290p58p9y0liBd4grLcKDStobUa8R2CnO0nLrfsLvHrStq53bHMLvuMXJJ0zQ21edGTbt4UBTAvSeDofORdYDoMw1eygYpNjOL8EyyOTJVUys4FQ2StkqFl1XWvT9e0uIL+Q36vwa6MT55/Z6Vc8VbAxCBpAb78nrhsQEciS49jMnI15dE+HAiDwIbPGCMYgpIP0jNN2AmGqvJ+vsOBJh/V+0M5wZWXMCSTPuOkSJxp7C6u6rf3hzJxVv4juOZU3rjb0gjvxKGOQKN02TiVJaNaHfg+aUlK8o9HPVThE6oPibGN7DEda+M+TgXexAt2UXquPoPv/r0t7bgWlKpCcWS+kjNn750uBJWvJLkGA8JePv2Jc7cHr6z4vSLI6mY=
   file: "build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-2017.3.zip"
-  skip_cleanup: true
   on:
     repo: DSLFoundry/mps-langvis
-    tags: true
