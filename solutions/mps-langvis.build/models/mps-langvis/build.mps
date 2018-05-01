@@ -102,7 +102,7 @@
     </language>
   </registry>
   <node concept="1l3spW" id="359UCzqDaRw">
-    <property role="TrG5h" value="mps-langvis" />
+    <property role="TrG5h" value="com.dslfoundry.langvis" />
     <property role="2DA0ip" value="../../" />
     <node concept="10PD9b" id="359UCzqDaRx" role="10PD9s" />
     <node concept="3b7kt6" id="359UCzqDaRy" role="10PD9s" />
