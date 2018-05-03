@@ -38,10 +38,10 @@ In MPS, install the plugin:
 # Usage
 You can create the following types of visualizations:
 
-* Full structure of a language (right click "structure" of the language and select "Generate MetaModel PlantUML") - hotkey: Ctrl+Shift+M
-* Inheritance hierarchy to see which interfaces are implemented (Right click concept and select "Generate inheritance ...")
-* Concept structure showing the children of a concept (Right click concept and select "Generate concept ...")
-* Concept context (The previous two visualizations combined and select "Generate concept ...")
+* Full structure of a language (right click "structure" of the language and select "Visualize Language Structure") - hotkey: Ctrl+Shift+M
+* Concept structure showing the children and inheritance hierarchy of a concept (Right click concept and select "Visualize Concept Context")
+
+Note that no panel is automatically opened yet. Only a file is generated and an external PlantUML is required to show the image. For more information see the next sections.
 
 Currently the main usage is the inheritance hierarchy for a certain concept. This is especially useful when interfaces are heavily used.
 Other visualizations may not be very complete. However the code is currently quite compact and can be tweaked where needed.
