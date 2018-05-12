@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/com.dslfoundry.langvis" />
   <property name="build.layout" location="${build.dir}/artifacts/com.dslfoundry.langvis" />
-  <property name="mps_home" location="" />
+  <property name="mps_home" location="${basedir}/../../../../Applications/MPS 2018.1.app/Contents" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -244,7 +244,9 @@
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/com.dslfoundry.langvis">
-      <fileset dir="${basedir}/solutions/ConceptStructureVisualization/source_gen" excludes="**/*.java" />
+      <fileset dir="${basedir}/solutions/ConceptStructureVisualization/source_gen">
+        <include name="*.png" />
+      </fileset>
     </copy>
   </target>
   

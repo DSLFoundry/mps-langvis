@@ -18,6 +18,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
+    <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="2af4e160-40bc-45d5-9078-9e2dabc7e7c0(com.dslfoundry.langvis)" version="0" />
     <module reference="6d71c942-16fc-48c8-845a-209b74953523(com.dslfoundry.langvis.build)" version="0" />
     <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
