@@ -57,10 +57,5 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="13xdoSTvmea">
-    <property role="EcuMT" value="1216312259332891530" />
-    <property role="TrG5h" value="C" />
-    <ref role="1TJDcQ" node="3QRrWZ6ZVua" resolve="B" />
-  </node>
 </model>
 
