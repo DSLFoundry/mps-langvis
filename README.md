@@ -3,24 +3,26 @@ MPS language visualizer
 
 A JetBrains MPS plugin to visualize the structure of a language.
 
-The visualization does not yet show in an integrated window, but can be quite usable when using an image viewer which refreshes on file change.
+The visualization shows in an integrated toolwindow, but the visualisation can also viewed using an image viewer which refreshes on file change.
 
 Tested with Linux, Windows and Mac.
 
 # Installation
 The following installation instructions assume an ```apt-get``` package manager on Linux and the Chocolatey package manager (https://chocolatey.org/) on Windows.
 
-Prerequisites:
-
+## Prerequisites for using the plugin
 1. Install the latest Oracle JDK (www.oracle.com/technetwork/java/javase)
-2. Download PlantUML jar file from http://plantuml.sourceforge.net/download.html and store it into your home directory
+2. Download PlantUML jar file from http://plantuml.sourceforge.net/download.html and store it into your home directory for instance /Users/diederikdulfer
 3. Install GraphViz (http://www.graphviz.org/) to satisfy PlantUML dependency (e.g. ```sudo apt-get install graphviz``` or ```choco install graphviz```)
 4. Download and install ant (e.g. using ```sudo apt-get install ant``` or ```choco install apache.ant```)
-5. Install the auto-refreshing image viewer of your choice (e.g. ```sudo apt-get install eog``` or ```choco install irfanview```)
+5. Install (if you don't use the integrated tool window) the auto-refreshing image viewer of your choice (e.g. ```sudo apt-get install eog``` or ```choco install irfanview```)
 6. For Windows: make sure your ```JAVA_HOME``` environment variable points to your JDK (e.g. ```set JAVA_HOME="c:\Program Files\Java\jdk1.8.0_45"```) 
-7. Clone this git repository
 
-## Build the plugin
+## Install plugin
+Install plugin from https://plugins.jetbrains.com/plugin/10689-com-dslfoundry-langvis
+
+## Build your own plugin
+1. Clone this repository
 1. (Optional) regenerate the build.xml file
  * Open the mps-langstructvis solution in MPS.
  * Adjust the mps_home path in the build solution
@@ -35,13 +37,12 @@ In MPS, install the plugin:
 2. From the "build/artifacts/GenerateMetaModelDocumentation" subdirectory of the project select the zip file.
 3. Press "OK" and "Restart"
 
-# Usage
+# Usage of the plugin
 You can create the following types of visualizations:
 
-* Full structure of a language (right click "structure" of the language and select "Generate MetaModel PlantUML") - hotkey: Ctrl+Shift+M
-* Inheritance hierarchy to see which interfaces are implemented (Right click concept and select "Generate inheritance ...")
-* Concept structure showing the children of a concept (Right click concept and select "Generate concept ...")
-* Concept context (The previous two visualizations combined and select "Generate concept ...")
+* Full structure of a language (right click "structure" of the language and select "Visualise Language Structure") - hotkey: Ctrl+Shift+M
+* Concept structure showing the children of a concept and the interfaces (Right click concept and select "Visualise Concept Context")
+* View the visualisation in the 'Language Vis' Tab
 
 Currently the main usage is the inheritance hierarchy for a certain concept. This is especially useful when interfaces are heavily used.
 Other visualizations may not be very complete. However the code is currently quite compact and can be tweaked where needed.
