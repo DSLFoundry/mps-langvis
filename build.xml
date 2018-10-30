@@ -34,7 +34,7 @@
         <id>com.dslfoundry.langvis</id>
         <name>com.dslfoundry.langvis</name>
         <description>A JetBrains MPS plugin to visualize the structure of a language</description>
-        <version>2018.1</version>
+        <version>2018.2</version>
         <vendor url="http://dslfoundry.com/">DSLFoundry</vendor>
         <depends>jetbrains.mps.core</depends>
         <idea-version until-build="183.1" since-build="182.1" />
