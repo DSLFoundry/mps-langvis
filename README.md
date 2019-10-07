@@ -3,7 +3,7 @@ MPS language visualizer
 
 A JetBrains MPS plugin to visualize the structure of a language.
 
-Current version works on MPS 2018.3.
+Current version works on MPS 2019.1.
 
 The visualization does not yet show in an integrated window, but can be quite usable when using an image viewer which refreshes on file change.
 

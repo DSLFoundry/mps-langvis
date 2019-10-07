@@ -165,15 +165,7 @@
               <property role="2Ry0Am" value=".." />
               <node concept="2Ry0Ak" id="7NfVtMsv8Iv" role="2Ry0An">
                 <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="7NfVtMsv8IG" role="2Ry0An">
-                  <property role="2Ry0Am" value="Applications" />
-                  <node concept="2Ry0Ak" id="7NfVtMsv8IT" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS 2018.3.app" />
-                    <node concept="2Ry0Ak" id="7NfVtMsv8J6" role="2Ry0An">
-                      <property role="2Ry0Am" value="Contents" />
-                    </node>
-                  </node>
-                </node>
+                <node concept="2Ry0Ak" id="2bCEpecTZro" role="2Ry0An" />
               </node>
             </node>
           </node>
