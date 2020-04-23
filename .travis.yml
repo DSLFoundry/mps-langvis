@@ -1,15 +1,15 @@
 language: java
 jdk:
 - oraclejdk11
-before_install: wget https://download-cf.jetbrains.com/mps/2019.2/MPS-2019.2.zip
-install: unzip MPS-2019.2.zip
-script: ant -Dmps_home=./MPS\ 2019.2 clean generate assemble
-before_deploy: mv build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis.zip build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-2019.2.zip
+before_install: wget https://download-cf.jetbrains.com/mps/2019.3/MPS-2019.3.4.zip
+install: unzip MPS-2019.3.4.zip
+script: ant -Dmps_home=./MPS\ 2019.3 clean generate assemble
+before_deploy: mv build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis.zip build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-2019.3.4.zip
 deploy:
   provider: releases
   api_key:
     secure: dRoz3A2mGDT/8iKJUC2VwlZwAK8OzMI70L0iH+xG5GX/vOq+205Tk7zZLwzvAq7mij2KyL+IKQcsNpLJEPeWqwYgfcnfjG2CP9QL/Sq3UWvtYYaTcFqnHgvpy1hmPeKkqAmPjlQz+Hg7/zNqgAzva3+4jLhzMtk+S1GbRrI9EIPZ/cd/sdeK+wWkQwOTPEtkwM7hObksvXuK7ecn1wMMMovNzKmzQPe4NQn97lmkPqtxw7Os6H2XOZkROpn7YmePFFIT3vaOW6ril1+qn2wB/oduOpRMSll47N2pg98V7Zrvs290p58p9y0liBd4grLcKDStobUa8R2CnO0nLrfsLvHrStq53bHMLvuMXJJ0zQ21edGTbt4UBTAvSeDofORdYDoMw1eygYpNjOL8EyyOTJVUys4FQ2StkqFl1XWvT9e0uIL+Q36vwa6MT55/Z6Vc8VbAxCBpAb78nrhsQEciS49jMnI15dE+HAiDwIbPGCMYgpIP0jNN2AmGqvJ+vsOBJh/V+0M5wZWXMCSTPuOkSJxp7C6u6rf3hzJxVv4juOZU3rjb0gjvxKGOQKN02TiVJaNaHfg+aUlK8o9HPVThE6oPibGN7DEda+M+TgXexAt2UXquPoPv/r0t7bgWlKpCcWS+kjNn750uBJWvJLkGA8JePv2Jc7cHr6z4vSLI6mY=
-  file: "build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-2019.2.zip"
+  file: "build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-2019.3.4.zip"
   skip_cleanup: true
   on:
     repo: DSLFoundry/mps-langvis
