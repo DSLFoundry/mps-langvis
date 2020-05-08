@@ -34,10 +34,10 @@
         <id>com.dslfoundry.langvis</id>
         <name>com.dslfoundry.langvis</name>
         <description>A JetBrains MPS plugin to visualize the structure of a language</description>
-        <version>2019.2</version>
+        <version>2019.3</version>
         <vendor url="http://dslfoundry.com/">DSLFoundry</vendor>
         <depends>jetbrains.mps.core</depends>
-        <idea-version until-build="193.1" since-build="192.1" />
+        <idea-version until-build="194.1" since-build="193.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
