@@ -22,12 +22,7 @@ jobs:
     env:
       mpsver_major: '2020.1'
       mpsver_minor: '7'
-      
-    env:
       mps_name: 'MPS-${{mpsver_major}}.${{mpsver_minor}}'
-      mps_download_url: 'https://download-cf.jetbrains.com/mps/${{mps_name}}'
-      mps_zipfile: '${{mps_name}}.zip'
-      desired_langvis_plugin_name: 'build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-${{mps_name}}.zip'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -50,14 +45,14 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build
         run: |
-          wget 
+          wget https://download-cf.jetbrains.com/mps/MPS-$mpsver_major.$mpsver_minor
           unzip "MPS-$mpsver_major.$mpsver_minor.zip"
           ant -Dmps_home="./MPS\ $mpsver_major clean generate assemble"
-          mv "build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis.zip" "$desired_langvis_plugin_name"
+          mv "build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis.zip" "build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-$mpsver_major.$mpsver_minor.zip'
       
       - name: Upload
         uses: actions/upload-artifact@v2-preview
         with:
           name: plugin
-          path: env.desired_langvis_plugin_name
+          path: 'build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-${{mpsver_major}}.${{mpsver_minor}}.zip'
           
