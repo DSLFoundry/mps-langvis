@@ -22,6 +22,8 @@ jobs:
     env:
       mpsver_major: '2020.1'
       mpsver_minor: '7'
+      
+    env:
       mps_name: 'MPS-${{mpsver_major}}.${{mpsver_minor}}'
       mps_download_url: 'https://download-cf.jetbrains.com/mps/${{mps_name}}'
       mps_zipfile: '${{mps_name}}.zip'
