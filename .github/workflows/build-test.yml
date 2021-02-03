@@ -53,5 +53,5 @@ jobs:
         uses: actions/upload-artifact@v2-preview
         with:
           name: plugin
-          path: 'build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-${{mpsver_major}}.${{mpsver_minor}}.zip'
+          path: 'build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-${{env.mpsver_major}}.${{env.mpsver_minor}}.zip'
           
