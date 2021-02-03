@@ -22,7 +22,6 @@ jobs:
     env:
       mpsver_major: '2020.1'
       mpsver_minor: '7'
-      mps_name: 'MPS-${{mpsver_major}}.${{mpsver_minor}}'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
