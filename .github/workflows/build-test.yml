@@ -46,7 +46,8 @@ jobs:
         run: |
           wget https://download-cf.jetbrains.com/mps/$mpsver_major/MPS-$mpsver_major.$mpsver_minor.zip
           unzip "MPS-$mpsver_major.$mpsver_minor.zip"
-          ant -Dmps_home="./MPS\ $mpsver_major clean generate assemble"
+          ls .
+          ant -Dmps_home=./MPS\ $mpsver_major clean generate assemble
           mv "build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis.zip" "build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-$mpsver_major.$mpsver_minor.zip'
       
       - name: Upload
