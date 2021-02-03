@@ -2,6 +2,8 @@
 
 A JetBrains MPS plugin to visualize the structure of a language.
 
+The visualization shows in an integrated toolwindow, but the visualisation can also viewed using an image viewer which refreshes on file change.
+
 Check `.travis.yml` for the current MPS version of mps-langvis on master. Other versions can be found in the `maintenance/` branches.
 
 An integrated tool window is shown when visualizing (parts of) a language.
@@ -15,7 +17,7 @@ The following installation instructions assume an `apt-get` package manager on L
 Runtime prerequisites:
 
 1. Install the latest Oracle JDK (<www.oracle.com/technetwork/java/javase>)
-2. Download PlantUML jar file from <http://plantuml.sourceforge.net/download.html> and store it into your home directory (`%HOME%` on windows or `$HOME` on linux).
+2. Download PlantUML jar file from <http://plantuml.sourceforge.net/download.html> and store it into your home directory (`%HOME%` on windows or `$HOME` on linux), for instance /Users/diederikdulfer.
 3. Install GraphViz (<http://www.graphviz.org/>) to satisfy PlantUML dependency (e.g. ```sudo apt-get install graphviz``` or ```choco install graphviz```)
 4. For Windows: make sure your ```JAVA_HOME``` environment variable points to your JDK (e.g. ```set JAVA_HOME="c:\Program Files\Java\jdk1.8.0_45"```)
 5. (Optional) If you prefer an alternative to the integrated panel or the PlantUML viewer, install the auto-refreshing image viewer of your choice (e.g. ```sudo apt-get install eog``` or ```choco install irfanview```)
@@ -26,6 +28,8 @@ Build prerequisites:
 2. Download and install ant (e.g. using ```sudo apt-get install ant``` or ```choco install apache.ant```)
 3. Clone this git repository
 
+## Install plugin
+Install plugin from https://plugins.jetbrains.com/plugin/10689-com-dslfoundry-langvis
 
 ### Build the plugin
 
@@ -46,7 +50,7 @@ In MPS, install the plugin:
 2. From the `build/artifacts/GenerateMetaModelDocumentation` subdirectory of the project select the zip file.
 3. Press `OK` and `Restart`
 
-## Usage
+## Usage of the plugin
 
 You can create the following types of visualizations:
 
