@@ -50,9 +50,9 @@ jobs:
           ant -Dmps_home=./MPS\ $mpsver_major clean generate assemble
           mv build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis.zip build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-$mpsver_major.$mpsver_minor.zip
       
-      - name: Upload
-        uses: actions/upload-artifact@v2-preview
-        with:
-          name: plugin
-          path: 'build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-${{env.mpsver_major}}.${{env.mpsver_minor}}.zip'
+#      - name: Upload
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: plugin
+#          path: 'build/artifacts/com.dslfoundry.langvis/com.dslfoundry.langvis-MPS-${{env.mpsver_major}}.${{env.mpsver_minor}}.zip'
           
