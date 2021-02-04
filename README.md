@@ -28,7 +28,7 @@ Build prerequisites:
 2. Download and install ant (e.g. using ```sudo apt-get install ant``` or ```choco install apache.ant```)
 3. Clone this git repository
 
-## Install plugin
+### Install plugin
 Install plugin from https://plugins.jetbrains.com/plugin/10689-com-dslfoundry-langvis
 
 ### Build the plugin
