@@ -1,3 +1,6 @@
+# This repository is archived
+The plugin mps-plaintextgen has been moved from this repository to https://github.com/JetBrains/MPS-extensions. From now on, it will be maintained there. Please submit feedback and issues there.
+
 # MPS language visualizer
 
 A JetBrains MPS plugin to visualize the structure of a language.
